@@ -27,15 +27,20 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/Robert-Thaiyah/four-card-section-feature)
+- Live Site URL: [Live site URL](https://your-live-site-url.com)
 
 ## My process
+
+- First I created one card and made sure it was perfect then duplicated the card and copied the other content on them.
+- Decided to go with a grid structure as using margin-left and margin-right to align the items was a waste of time and headache-inducing.
+- Using the grid-template-columns made it easy to move around the cards till they looked the same as the design provided.
+- Grid columns also helped them have equal spacing. If I was to use the margin-left and margin-right measurements, they would have looked bad.
 
 ### Built with
 
@@ -46,19 +51,20 @@ Users should be able to:
 
 ### What I learned
 
+- CSS grids help immensly to align items properly. I shall try to see of grid-areas can replicate the same final solution.
 
 ### Continued development
 
+- CSS grids and Flex work well and will be practising on it fully.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
+- [CSS Grid Cheatsheet](https://grid.malven.co/) - Best CSS grid cheatsheet on the web. Serioulsy, bookmark it.
+- [Box Shadow templates](https://getcssscan.com/css-box-shadow-examples) - I know you are lazy as I am. 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Robert Thaiyah](https://github.com/Robert-Thaiyah)
 
 ## Acknowledgments
 

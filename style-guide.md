@@ -22,7 +22,7 @@ The designs were created to the following widths:
 - Grayish Blue: hsl(229, 6%, 66%)
 - Very Light Gray: hsl(0, 0%, 98%)
 
-## Typography
+## Typography 
 
 ### Body Copy
 

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root{
+    --backgound-color: hsl(0, 0%, 98%);
+    --font-color-dark-blue: hsl(234, 12%, 34%);
+    --font-color-greyish-blue: hsl(229, 6%, 66%);
+    --border-color-red: hsl(0, 78%, 62%);
+    --border-color-cyan: hsl(180, 62%, 55%);
+    --border-color-orange: hsl(34, 97%, 64%);
+    --border-color-blue: hsl(212, 86%, 64%);
+    --font-size:15px;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.title{
+    text-align: center;
+}
+
+.main-title{
+    color: var(--font-color-greyish-blue);
+    font-weight: 300;
+    display: grid;
+    font-size: 3em;
+}
+
+.title p{
+    color: var(--font-color-greyish-blue);
+    text-align: center;
+    font-size: var(--font-size);
+}
+
+span{
+    font-weight: 700;
+    color: var(--font-color-dark-blue);
+}
+
+
+.cards {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.card-one{
+    grid-column: 2/ span 1;
+    grid-row: 2 /span 2;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    border-top: 4px solid var(--border-color-cyan);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.card-one img{
+    padding-top: 10%;
+    margin-left: 60%;
+}
+
+.card-two{
+    grid-column: 3/ span 1;
+    grid-row: 1 /span 2;
+    border: 1px solid transparent;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    border-top: 4px solid var(--border-color-red);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.card-two img{
+    padding-top: 10%;
+    margin-left: 60%;
+}
+
+.card-three{
+    grid-column: 3/ span 1;
+    grid-row: 3 /span 1;
+    border: 1px solid transparent;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    border-top: 4px solid var(--border-color-orange);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.card-three img{
+    padding-top: 10%;
+    margin-left: 60%;
+}
+
+
+.card-four{
+    grid-column: 4/ span 1;
+    grid-row: 2 /span 2;
+    border: 1px solid transparent;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    border-top: 4px solid var(--border-color-blue);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.card-four img{
+    padding-top: 10%;
+    margin-left: 60%;
+}
+
+
+@media screen and (min-width: 20em) {
+    .cards {
+      display: flex;
+      flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 50em) {
+    .cards {
+      display: flex;
+      flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 70em) {
+
+    .cards {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        margin-top: 3rem;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
