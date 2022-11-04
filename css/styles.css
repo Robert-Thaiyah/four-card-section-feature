@@ -51,11 +51,20 @@ body {
     color: var(--font-color-greyish-blue);
     text-align: center;
     font-size: var(--font-size);
+    margin: 2rem;
 }
 
 span{
     font-weight: 700;
     color: var(--font-color-dark-blue);
+}
+
+.details {
+    color: var(--font-color-greyish-blue);
+}
+
+h2{
+    margin-bottom: 1rem;
 }
 
 
@@ -84,7 +93,7 @@ span{
 
 .card-one img{
     padding-top: 10%;
-    margin-left: 60%;
+    margin-left: 70%;
 }
 
 .card-two{
@@ -104,7 +113,7 @@ span{
 
 .card-two img{
     padding-top: 10%;
-    margin-left: 60%;
+    margin-left: 70%;
 }
 
 .card-three{
@@ -124,7 +133,7 @@ span{
 
 .card-three img{
     padding-top: 10%;
-    margin-left: 60%;
+    margin-left: 70%;
 }
 
 
@@ -145,7 +154,7 @@ span{
 
 .card-four img{
     padding-top: 10%;
-    margin-left: 60%;
+    margin-left: 70%;
 }
 
 
